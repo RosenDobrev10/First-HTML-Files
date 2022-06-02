@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-BG">
+<head>
+  <title>Login form </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+</head>
+<body>
+  <form autocomplete="on">
+    <fieldset>
+    <legend>Login form</legend>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username name="username" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Login">
+    </fieldset>
+  </form>
+</form>
+</body>
+</html>
