@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p style="color:red;">Square area calculation</p>
+	<p><pre><b>Side</b>                        <b>Area</b></pre></p>
+	<input type="number" id="side"/> =
+        <input type="number" id="area"/>
+        <br/><br/>
+        <input type="button" id="calculateButton" value="Calculate" />
+        <script>
+            function calculate(){
+                let a = Number(document.getElementById("side").value);
+                document.getElementById("area").value = a * a;
+            }
+            let calculateButton = document.getElementById("calculateButton");
+            calculateButton.addEventListener("click", calculate);
+        </script>
+    </body>
+</html>
